@@ -68,4 +68,8 @@ export default function CoffeePopup() {
             </button>
           </div>
         </div>
+      </div>
+    </div>
+  );
+}
  
