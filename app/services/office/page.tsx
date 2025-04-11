@@ -74,8 +74,7 @@ const translations = {
           'Salată proaspătă',
           'Pâine de casă',
           'Cartofi prăjiți'
-        ],
-        price: '59.90 MDL / persoană'
+        ]
       },
       menu2: {
         title: 'Meniu Business Classic',
@@ -84,8 +83,7 @@ const translations = {
           'Pui pane',
           'Garnitură de legume',
           'Pâine'
-        ],
-        price: '69.90 MDL / persoană'
+        ]
       },
       menu3: {
         title: 'Meniu Business Premium',
@@ -94,8 +92,7 @@ const translations = {
           'Friptură de porc',
           'Legume la grătar',
           'Pâine, salată'
-        ],
-        price: '79.90 MDL / persoană'
+        ]
       }
     },
     wellness: {
@@ -200,28 +197,25 @@ const translations = {
           'Свежий салат',
           'Домашний хлеб',
           'Картофель фри'
-        ],
-        price: '59.90 MDL / человек'
+        ]
       },
       menu2: {
         title: 'Меню Business Classic',
         items: [
           'Суп дня',
           'Курица в панировке',
-          'Гарнир из овощей',
+          'Овощной гарнир',
           'Хлеб'
-        ],
-        price: '69.90 MDL / человек'
+        ]
       },
       menu3: {
         title: 'Меню Business Premium',
         items: [
           'Суп дня',
-          'Свиной стейк',
+          'Свиная отбивная',
           'Овощи гриль',
           'Хлеб, салат'
-        ],
-        price: '79.90 MDL / человек'
+        ]
       }
     },
     wellness: {
@@ -318,36 +312,33 @@ const translations = {
     phone: 'Tel: ',
     email: 'Email: ',
     menuExamples: {
-      title: 'Alcuni Esempi dei nostri Menu',
+      title: 'Esempi dei Nostri Menu',
       menu1: {
         title: 'Menu Business Light',
         items: [
           'Zuppa del giorno',
           'Insalata fresca',
           'Pane fatto in casa',
-          'Patatine fritte'
-        ],
-        price: '59.90 MDL / persona'
+          'Patate fritte'
+        ]
       },
       menu2: {
         title: 'Menu Business Classic',
         items: [
           'Zuppa del giorno',
-          'Pollo Impanato',
+          'Pollo impanato',
           'Contorno di verdure',
           'Pane'
-        ],
-        price: '69.90 MDL / persona'
+        ]
       },
       menu3: {
         title: 'Menu Business Premium',
         items: [
           'Zuppa del giorno',
           'Bistecca di maiale',
-          'Verdure alla griglia',
+          'Verdure grigliate',
           'Pane, insalata'
-        ],
-        price: '79.90 MDL / persona'
+        ]
       }
     },
     wellness: {
@@ -503,7 +494,6 @@ export default function OfficePage() {
                     <li key={index}>• {item}</li>
                   ))}
                 </ul>
-                <p className="mt-4 text-blue-600 font-semibold">{t.menuExamples.menu1.price}</p>
               </div>
             </div>
 
@@ -525,7 +515,6 @@ export default function OfficePage() {
                     <li key={index}>• {item}</li>
                   ))}
                 </ul>
-                <p className="mt-4 text-blue-600 font-semibold">{t.menuExamples.menu2.price}</p>
               </div>
             </div>
 
@@ -547,7 +536,6 @@ export default function OfficePage() {
                     <li key={index}>• {item}</li>
                   ))}
                 </ul>
-                <p className="mt-4 text-blue-600 font-semibold">{t.menuExamples.menu3.price}</p>
               </div>
             </div>
           </div>
