@@ -9,36 +9,18 @@ const nextConfig = {
         permanent: true, // questo è importante per il SEO (301 redirect)
       },
       {
-        source: '/about',
-        destination: '/chi-siamo',
-        permanent: true,
-      },
-      {
-        source: '/contact',
-        destination: '/contatti',
-        permanent: true,
-      },
-      // Reindirizzamento con parametri dinamici
-      {
-        source: '/menu/:id',
-        destination: '/menu/dettaglio/:id',
-        permanent: true,
-      },
-      // Reindirizzamento con query parameters
-      {
-        source: '/search',
-        destination: '/ricerca',
-        permanent: true,
-      },
-      // Reindirizzamento da vecchi URL dei servizi
-      {
-        source: '/catering',
+        source: '/servizi/office',
         destination: '/services/office',
         permanent: true,
       },
       {
-        source: '/commemorazioni',
-        destination: '/services/pomana',
+        source: '/chi-siamo',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/contatti',
+        destination: '/contact',
         permanent: true,
       }
     ]
